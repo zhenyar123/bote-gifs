@@ -12,7 +12,7 @@ client.on('ready', async () => {
     client.appInfo = await client.fetchApplication();
   }, 600);
   
- client.user.setActivity(`=help | Server ${client.guilds.cache.size},Users ${client.guilds.cache.reduce((a, g) => a + g.memberCount, 0)}`, { type:"LISTENING" })
+ client.user.setActivity(`=help | Gif Bot`, { type:"LISTENING" })
   console.log("${client.user.tag}")
 });
 
